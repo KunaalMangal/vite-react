@@ -27,3 +27,10 @@ dist-ssr
 package-lock.json
 yarn.lock
 *.lock
+
+# envs
+.env
+.env.*
+
+# others
+dependencies.txt
