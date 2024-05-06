@@ -1,12 +1,13 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import React from "react";
+import React, { Fragment } from "react";
+import { Footer } from "../components";
 
-const AuthLayout: React.FC<any> = (props) => {
+export const AuthLayout: React.FC<any> = (props) => {
   return (
-    <>
+    <Fragment>
       <main>{props.children}</main>
-    </>
+      <Footer />
+    </Fragment>
   );
 };
 
-export default AuthLayout;
